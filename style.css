@@ -202,10 +202,10 @@ p {
 	border-radius: 50%;
 	position: absolute;
 	box-shadow: 0 0 25px #38AADF;
-	left: 48%;
+	left: 47%;
 	top: 48%;
 	transform: translate(-50%, -50%);
-	animation: orbiting6 70s linear infinite;
+	animation: orbiting6 7s linear infinite;
 	z-index: 20;
 }
 #uranus {
@@ -215,7 +215,7 @@ p {
 }
 .uranus-orbit {
 	border-radius: 50%;
-	border: 5px dotted #38AADF;
+	border: 6px dotted #38AADF;
 	top: 50%;
 	left: 50%;
 	height: 1000px;
@@ -244,11 +244,11 @@ p {
 #neptune {
 	color: #1D6093;
 	margin: 110px;
-	font-size: 28px;
+	font-size: 30px;
 }
 .neptune-orbit {
 	border-radius: 50%;
-	border: 5px dotted #1D6093;
+	border: 8px dotted #1D6093;
 	top: 50%;
 	left: 50%;
 	height: 1200px;
