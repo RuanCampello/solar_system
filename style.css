@@ -205,7 +205,7 @@ p {
 	left: 47%;
 	top: 48%;
 	transform: translate(-50%, -50%);
-	animation: orbiting6 7s linear infinite;
+	animation: orbiting6 70s linear infinite;
 	z-index: 20;
 }
 #uranus {
