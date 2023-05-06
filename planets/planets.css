@@ -16,7 +16,7 @@ body {
 	background-color: #000000;
 }
 .sun {
-	background-image: url('/img/sun.png');
+	background-image: url(/planets/img/sun1.png);
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
@@ -34,7 +34,7 @@ p {
 	background-color: #000000;
 }
 .mercury {
-	background-image: url('/img/mercury.png');
+	background-image: url(/planets/img/mercury1.png);
 	width: 25px;
 	height: 25px;
 	background-size: cover;
@@ -67,7 +67,7 @@ p {
 	margin: 10px;
 }
 .venus {
-	background-image: url('/img/venus.png');
+	background-image: url(/planets/img/venus1.png);
 	width: 50px;
 	height: 50px;
 	background-size: cover;
@@ -101,7 +101,7 @@ p {
 	to{transform: rotate(360deg)translateX(160px) rotate(-360deg);}
 }
 .earth {
-	background-image: url(./img/earth.png);
+	background-image: url(/planets/img/earth1.png);
 	width: 75px;
 	height: 75px;
 	background-size: cover;
@@ -135,7 +135,7 @@ p {
 	to{transform: rotate(360deg)translateX(220px) rotate(-360deg);}
 }
 .jupiter {
-	background-image: url('/img/jupiter.png');
+	background-image: url(/planets/img/jupiter1.png);
 	width: 90px;
 	height: 90px;
 	background-size: cover;
@@ -169,7 +169,7 @@ p {
 	to{transform: rotate(360deg)translateX(325px) rotate(-360deg);}
 }
 .saturn {
-	background-image: url('/img/saturn.png');
+	background-image: url(/planets/img/saturn1.png);
 	width: 85px;
 	height: 85px;
 	background-size: cover;
@@ -202,7 +202,7 @@ p {
 	to{transform: rotate(360deg)translateX(425px) rotate(-360deg);}
 }
 .uranus {
-	background-image: url('/img/uranus.png');
+	background-image: url(/planets/img/uranus1.png);
 	width: 50px;
 	height: 50px;
 	background-size: cover;
@@ -235,7 +235,7 @@ p {
 	to{transform: rotate(360deg)translateX(500px) rotate(-360deg);}
 }
 .neptune {
-	background-image: url('/img/neptune.png');
+	background-image: url(/planets/img/neptune1.png);
 	width: 50px;
 	height: 50px;
 	background-size: cover;

@@ -101,7 +101,7 @@ p {
 	to{transform: rotate(360deg)translateX(160px) rotate(-360deg);}
 }
 .earth {
-	background-image: url(./img/earth.png);
+	background-image: url(img/earth.png);
 	width: 75px;
 	height: 75px;
 	background-size: cover;
