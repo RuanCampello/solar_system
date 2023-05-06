@@ -4,13 +4,6 @@
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
 }
-h1, h2 .title {
-	justify-content: center;
-	text-align: center;
-	color: #ffffff;
-	position: fixed;
-	font-size: 24px;
-}
 body {
 	background-size: 100%;
 	background-color: #000000;
