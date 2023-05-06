@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background-size: 100%;
+	background-color: #000000;
+}
+.sun {
+	background-image: url('./img/sun.png');
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-size: cover;
+	box-shadow: 0 0 45px #F8BF41;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+p {
+	position: absolute;
+	font-weight: 600;
+	text-decoration: underline;
+	background-color: #000000;
+}
+.mercury {
+	background-image: url('/img/mercury.png');
+	width: 25px;
+	height: 25px;
+	background-size: cover;
+	border-radius: 50%;
+	position: absolute;
+	box-shadow: 0 0 25px #746B95;
+	left: 45%;
+	top: 46%;
+	transform: translate(-50%, -50%);
+	animation: orbiting 2s linear infinite;
+	z-index: 10;
+}
+@keyframes orbiting {
+	from{transform: rotate(0deg)translateX(100px) rotate(0deg);}
+	to{transform: rotate(360deg)translateX(100px) rotate(-360deg);}
+}
+.mercury-orbit{
+	border-radius: 50%;
+	border: 1px solid #746B95;
+	top: 50%;
+	left: 50%;
+	height: 200px;
+	width: 200px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+#mercury {
+	color: #746B95;
+	font-size: 12px;
+	margin: 10px;
+}
