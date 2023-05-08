@@ -16,11 +16,13 @@ body {
 	background-color: #000000;
 }
 .sun {
-	background-image: url('img/sun.png');
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7w2q3v30Q5gWTajoC0TOXiAvECxNdc6pRdA&usqp=CAU);
 	width: 120px;
 	height: 120px;
+	object-fit: none;
 	border-radius: 50%;
 	background-size: cover;
+	background-position: center;
 	box-shadow: 0 0 45px #F8BF41;
 	position: absolute;
 	top: 50%;
@@ -34,11 +36,12 @@ p {
 	background-color: #000000;
 }
 .mercury {
-	background-image: url('img/mercury.png');
+	background-image: url(https://i.etsystatic.com/21476788/r/il/ed0612/2060987262/il_794xN.2060987262_54n1.jpg);
 	width: 25px;
 	height: 25px;
-	background-size: cover;
 	border-radius: 50%;
+	background-position: center;
+	background-size: cover;
 	position: absolute;
 	box-shadow: 0 0 25px #746B95;
 	left: 45%;
@@ -67,9 +70,10 @@ p {
 	margin: 10px;
 }
 .venus {
-	background-image: url('img/venus.png');
+	background-image: url(https://i.etsystatic.com/21476788/r/il/f434cc/2060987354/il_794xN.2060987354_5mal.jpg);
 	width: 50px;
 	height: 50px;
+	background-position: center;
 	background-size: cover;
 	border-radius: 50%;
 	position: absolute;
@@ -101,9 +105,10 @@ p {
 	to{transform: rotate(360deg)translateX(160px) rotate(-360deg);}
 }
 .mars {
-	background-image: url('img/mars.png');
+	background-image: url(https://i.etsystatic.com/21476788/r/il/5148f3/2060987430/il_794xN.2060987430_7c3n.jpg);
 	width: 50px;
 	height: 50px;
+	background-position: center;
 	background-size: cover;
 	border-radius: 50%;
 	position: absolute;
@@ -135,9 +140,10 @@ p {
 	to{transform: rotate(360deg)translateX(225px) rotate(-360deg);}
 }
 .earth {
-	background-image: url('img/earth.png');
+	background-image: url(https://i.etsystatic.com/21476788/r/il/9c835a/2060987330/il_794xN.2060987330_neej.jpg);
 	width: 75px;
 	height: 75px;
+	background-position: center;
 	background-size: cover;
 	border-radius: 50%;
 	position: absolute;
@@ -169,9 +175,10 @@ p {
 	to{transform: rotate(360deg)translateX(300px) rotate(-360deg);}
 }
 .jupiter {
-	background-image: url('img/jupiter.png');
+	background-image: url(https://i.etsystatic.com/21476788/r/il/e52281/2060987364/il_794xN.2060987364_8ptw.jpg);
 	width: 90px;
 	height: 90px;
+	background-position: center;
 	background-size: cover;
 	border-radius: 50%;
 	position: absolute;
@@ -203,9 +210,10 @@ p {
 	to{transform: rotate(360deg)translateX(375px) rotate(-360deg);}
 }
 .saturn {
-	background-image: url('img/saturn.png');
+	background-image: url(https://i.etsystatic.com/21476788/r/il/f5c892/2108563945/il_794xN.2108563945_emiw.jpg);
 	width: 85px;
 	height: 85px;
+	background-position: center;
 	background-size: cover;
 	border-radius: 50%;
 	position: absolute;
@@ -236,10 +244,11 @@ p {
 	to{transform: rotate(360deg)translateX(500px) rotate(-360deg);}
 }
 .uranus {
-	background-image: url('/img/uranus.png');
+	background-image: url(https://i.etsystatic.com/21476788/r/il/cb3315/2060987358/il_794xN.2060987358_g8lj.jpg);
 	width: 50px;
 	height: 50px;
 	background-size: cover;
+	background-position: center;
 	border-radius: 50%;
 	position: absolute;
 	box-shadow: 0 0 25px #38AADF;
@@ -269,15 +278,16 @@ p {
 	to{transform: rotate(360deg)translateX(600px) rotate(-360deg);}
 }
 .neptune {
-	background-image: url('img/neptune.png');
+	background-image: url(https://i.etsystatic.com/21476788/r/il/c50d99/2060987334/il_794xN.2060987334_gyoq.jpg);
 	width: 50px;
 	height: 50px;
 	background-size: cover;
+	background-position: center;
 	border-radius: 50%;
 	position: absolute;
 	box-shadow: 0 0 25px #1D6093;
-	left: 48.70%;
-	top: 48.70%;
+	left: 48.5%;
+	top: 48.5%;
 	transform: translate(-50%, -50%);
 	animation: orbiting7 85s linear infinite;
 	z-index: 20;
@@ -301,90 +311,6 @@ p {
 	from{transform: rotate(0deg)translateX(700px) rotate(0deg);}
 	to{transform: rotate(360deg)translateX(700px) rotate(-360deg);}
 }
-nav{
-  float: left; 
-	position: absolute;
-	margin: auto;
-}
-nav ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-nav li{  
-  float: none; 
-  width: 50%;
-  margin-bottom: 3px;
-  background: rgb(0, 0, 0);
-	z-index: 150;
-	max-width: 600px;
-	min-width: 200px;
-	max-height: 60px;
-	min-height: 40px;
-}
-nav li a{
-  display: block; 
-	width: 50%;
-	max-width: 400px;
-	min-width: 200px;
-	max-height: 50px;
-	min-height: 40px;
-  padding: 20px; 
-  border-left: 5px solid; 
-	font-size: 150%;
-	font-weight: 600;
-	text-align: left;
-  position: relative; 
-  z-index: 150;
-  text-decoration: none;
-  color: #d4d4d4d5;
-	z-index: 50;
-  box-sizing: border-box;  
-  -moz-box-sizing: border-box;  
-  -webkit-box-sizing: border-box; 
-  transition: all 0.3s ease 0s; 
-  -webkit-transition: all 0.3s ease 0s; 
-}
-nav li:nth-child(1) a{ color: #746B95; }
-nav li:nth-child(2) a{ color: #E0892F; }
-nav li:nth-child(3) a{ color: #CB2639; }
-nav li:nth-child(4) a{ color: #167C4F; }
-nav li:nth-child(5) a{ color: #D2432E; }
-nav li:nth-child(6) a{ color: #CDA056; }
-nav li:nth-child(7) a{ color: #38AADF; }
-nav li:nth-child(8) a{ color: #1D6093; }
-
-nav li a i { font-size:0.5em; }
-nav li a:hover{ border-bottom: 0px; color: #fff; }
-nav li:nth-child(1) a{ border-left: 10px solid #746B95; }
-nav li:nth-child(2) a{ border-left: 10px solid #E0892F; }
-nav li:nth-child(3) a{ border-left: 10px solid #CB2639; }
-nav li:nth-child(4) a{ border-left: 10px solid #167C4F; }
-nav li:nth-child(5) a{ border-left: 10px solid #D2432E; }
-nav li:nth-child(6) a{ border-left: 10px solid #CDA056; }
-nav li:nth-child(7) a{ border-left: 10px solid #38AADF; }
-nav li:nth-child(8) a{ border-left: 10px solid #1D6093; }
-nav li a:after { 
-  content: "";
-  height: 100%; 
-  left: 0; 
-  top: 0; 
-  width: 0px;  
-  position: absolute; 
-  transition: all 0.3s ease 0s; 
-  -webkit-transition: all 0.3s ease 0s; 
-  z-index: -1;
-}
-nav li a:hover:after{ width: 100%; }
-nav li:nth-child(1) a:after{ background: #746B95; }
-nav li:nth-child(2) a:after{ background: #E0892F; }
-nav li:nth-child(3) a:after{ background: #CB2639; }
-nav li:nth-child(4) a:after{ background: #167C4F; }
-nav li:nth-child(5) a:after{ background: #D2432E; }
-nav li:nth-child(6) a:after{ background: #CDA056; }
-nav li:nth-child(7) a:after{ background: #38AADF; }
-nav li:nth-child(8) a:after{ background: #1D6093; }
-
 .wrapper{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -430,9 +356,6 @@ cite a {
 }
 #venus-cite a {
 	color: #E0892F;
-}
-#mars-cite a {
-	color: #D2432E;
 }
 #earth-cite a {
 	color: #167C4F;
